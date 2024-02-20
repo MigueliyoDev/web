@@ -1,0 +1,77 @@
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 0 20px 0 0;
+}
+
+.title-logo {
+  font-size: 20px;
+  font-weight: bold;
+  align-items: left;
+}
+
+.navbar-nav {
+  margin: 0 25% 0 25%;
+  justify-content: space-between;
+}
+
+.navbars {
+  padding: 10px 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-item.active {
+  font-weight: bold;
+}
+
+.content-txt {
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.img-map {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.title-admision {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 2% 0 5% 0;
+}
+
+.parrafoFinal {
+  margin: 2% 0 2% 0;
+}
+
+@media (max-width: 1080px) {
+  .navbar-nav {
+    margin: 0 30% 0 30%;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  .navbar-nav {
+    margin: 0 10% 0 10%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 740px) {
+  .navbar-nav {
+    margin: 0 5% 0 5%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-nav {
+    margin: 0 5% 0 5%;
+  }
+}
